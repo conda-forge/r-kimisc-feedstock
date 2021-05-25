@@ -22,7 +22,6 @@ build:
 
 requirements:
   build:
-
   host:
     - r-base
     - r-memoise
@@ -41,7 +40,7 @@ test:
 
 about:
   home: http://krlmlr.github.io/kimisc
-  license: GPL-3
+  license: GPL-3.0-only
   summary: 'A collection of useful functions not found anywhere else, mainly for programming:
     Pretty intervals, generalized lagged differences, checking containment in an interval,
     and an alternative interface to assign().'
@@ -51,12 +50,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
     - philip-khor
 
 # Encoding: UTF-8
