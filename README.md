@@ -1,11 +1,11 @@
-About r-kimisc
-==============
+About r-kimisc-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-kimisc-feedstock/blob/main/LICENSE.txt)
 
 Home: http://krlmlr.github.io/kimisc
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-kimisc-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of useful functions not found anywhere else, mainly for programming: Pretty intervals, generalized lagged differences, checking containment in an interval, and an alternative interface to assign().
 
