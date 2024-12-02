@@ -1,4 +1,4 @@
-{% set version = '0.4' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/kimisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/kimisc/kimisc_{{ version }}.tar.gz
-  sha256: 9f885a28cc56f773b68151087221ee274eb3ca1529d8e6aaaa70aa84d7d57259
+  sha256: 37947f24aa3b724bfd115a39f983957a7ffdcaa3f1f4d089c92b989418c49049
 
 build:
   noarch: generic
-  number: 1005
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -39,9 +39,7 @@ test:
 about:
   home: http://krlmlr.github.io/kimisc
   license: GPL-3.0-only
-  summary: 'A collection of useful functions not found anywhere else, mainly for programming:
-    Pretty intervals, generalized lagged differences, checking containment in an interval,
-    and an alternative interface to assign().'
+  summary: 'A collection of useful functions not found anywhere else, mainly for programming: Pretty intervals, generalized lagged differences, checking containment in an interval, and an alternative interface to assign().'
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
