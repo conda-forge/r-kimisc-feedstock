@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/kimisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/kimisc/kimisc_{{ version }}.tar.gz
-  sha256: 37947f24aa3b724bfd115a39f983957a7ffdcaa3f1f4d089c92b989418c49049
+  sha256: 8dd7f842544267ceb7fe0a0aaae778bdfd48d09d137cfe1232024c82d8e0e56e
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
